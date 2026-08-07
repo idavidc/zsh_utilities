@@ -1,3 +1,3 @@
-. ~/repos/scripts/lo.sh
-. ~/repos/scripts/name_trimmer.sh
-. ~/repos/scripts/mover.sh
+. ~/repos/zsh_utilities/lo.sh
+. ~/repos/zsh_utilities/name_trimmer.sh
+. ~/repos/zsh_utilities/mover.sh
