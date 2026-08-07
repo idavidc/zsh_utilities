@@ -1,0 +1,79 @@
+# This is an example configuration file
+# To learn more, see the full config.yaml reference: https://docs.continue.dev/reference
+
+name: My Config
+version: 1.0.0
+schema: v1
+
+# Define which models can be used
+# https://docs.continue.dev/customization/models
+models:
+- name: gemma-4-26b-a4b-it-8bit
+  provider: mlx
+  model: gemma-4-26b-a4b-it-8bit
+  apiBase: http://127.0.0.1:8000
+  roles:
+    - apply
+    - autocomplete
+    - chat
+    - edit
+
+- name: Qwen3.6-35B-A3B-4bit
+  provider: mlx
+  model: Qwen3.6-35B-A3B-4bit
+  apiBase: http://127.0.0.1:8000
+  roles:
+    - apply
+    - autocomplete
+    - chat
+    - edit
+
+- name: Qwen3.6-35B-A3B-5bit
+  provider: mlx
+  model: Qwen3.6-35B-A3B-5bit
+  apiBase: http://127.0.0.1:8000
+  roles:
+    - apply
+    - autocomplete
+    - chat
+    - edit
+
+- name: Qwen3.6-35B-A3B-6bit
+  provider: mlx
+  model: Qwen3.6-35B-A3B-6bit
+  apiBase: http://127.0.0.1:8000
+  roles:
+    - apply
+    - autocomplete
+    - chat
+    - edit
+
+- name: Qwen3.6-35B-A3B-8bit
+  provider: mlx
+  model: Qwen3.6-35B-A3B-8bit
+  apiBase: http://127.0.0.1:8000
+  roles:
+    - apply
+    - autocomplete
+    - chat
+    - edit
+
+- name: Qwen3-Coder-Next-REAP-40B-A3B-mlx-mxfp4
+  provider: mlx
+  model: Qwen3-Coder-Next-REAP-40B-A3B-mlx-mxfp4
+  apiBase: http://127.0.0.1:8000
+  roles:
+    - apply
+    - autocomplete
+    - chat
+    - edit
+
+- name: Qwen3.6-27B-MLX-8bit
+  provider: mlx
+  model: Qwen3.6-27B-MLX-8bit
+  apiBase: http://127.0.0.1:8000
+  roles:
+    - apply
+    - autocomplete
+    - chat
+    - edit
