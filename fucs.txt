@@ -1,0 +1,38 @@
+# Linux Directory Commands Cheat Sheet
+
+## Copying
+- Copy directory: `cp -r <source_dir> <dest_dir>` (the -r flag is required for recursive copying)
+  Example: `cp -r my_folder backup_folder`
+
+## Deleting
+- Delete empty directory: `rmdir <dir_name>`
+  Example: `rmdir empty_dir`
+- Delete directory and its contents: `rm -rf <dir_name>` (use with caution)
+  Example: `rm -rf old_folder`
+
+## Moving/Renaming
+- Move or rename directory: `mv <old_name> <new_name>`
+  Example: `mv folder1 folder2`
+
+## Creating
+- Create directory: `mkdir <dir_name>`
+  Example: `mkdir new_folder`
+- Create nested directories: `mkdir -p <path/to/nested/dir>`
+  Example: `mkdir -p projects/2024/july`
+
+## Listing
+- List directory contents: `ls`
+  Example: `ls`
+- List with details: `ls -l`
+  Example: `ls -l`
+- List including hidden files: `ls -a`
+  Example: `ls -a`
+
+
+## Finding Special files
+
+Example: find . -name '*]*'
+
+## Getting Directory Size for All Directories 1 Level Down
+
+Example: du -h --max-depth=1 | sort -h
